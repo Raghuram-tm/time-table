@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Time table</title>
+        <meta charset="UTF-8">
+        <title>time table</title>
         <style>
-            table,td,th{
-                border: 2px solid rgb(0, 0, 0);
+            table, td,th{
+                border: 2px solid rgb(31, 16, 16);
                 border-collapse: collapse;
-                padding: 27px;
+                width: 1000px;
+                height: 80px;
             }
-            .time{
-                font-size: 18px;
-                font-weight: bolder;
-                background-color: #88af99;
+            .stl1{
+                background-color: rgb(189, 107, 107);
             }
-            th{
-                background-color: #7c6262;
-                padding: 37px;
-            }
-            table{
-                background-color: #ae99d4;
-            }
-            td{
-                font-size: 25px;
-            }
+
         </style>
+
     </head>
     <body>
-       <table>
-           <tr>
-               <th>Week</th>
-               <th>Monday</th>
-               <th>Tuesday</th>ss
-               <th>Wednesday</th>
-               <th>Thursday</th>
-               <th>Friday</th>
+        <h2>TIME TABLE</h2>
+        <table style="text-align: center;">
+            <tr style="background-color: rgb(100, 237, 173);">
+            <th>day/timings</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursady</th>
+            <th>friday</th>
+            <th>saturday</th>
+            <th>sunday</th>
+            </tr>
+            <tr>
+                <td class="stl1">9am-12pm</td>
+                <td>class</td>
+                <td>class</td>
+                <td>class</td>
+                <td>class</td>
+                <td>class</td>
+                <td>Aptitude class</td>
+                <td rowspan="2">-</td>
                
-           </tr>
-           <tr>
-               <td class="time">1:00pm - 2:00pm</td>
-               <td>revise todays topic</td>
-               <td>revise todays topic</td>
-               <td>revise todays topic</td>
-               <td>revise todays topic</td>
-               <td>revise todays topic</td>       
-           </tr>
-           <tr>
-               <td colspan="6" style="text-align: center;font-weight: bolder;">Lunch</td>
-           </tr>
-
-           <tr>
-            <td class="time">3:00pm - 7:00pm</td>
-               <td>Task</td>
-               <td>Task</td>
-               <td>Task</td>
-               <td>Task</td>
-               <td>Mock Interview and Task</td>
-           </tr>
-
-           <tr>
-            <td class="time">7:00pm - 8:00pm</td>
-            <td> previous topic-practical</td>
-            <td> previous topic-practical</td>
-            <td> previous topic-practical</td>
-            <td> previous topic-practical</td>
-            <td> previous topic-practical</td>
-        </tr>
-        <tr>
-            <td colspan="6" style="text-align: center; font-weight: bolder;">Dinner</td>
-        </tr>
-    </table>
+            </tr>
+            <tr>
+                <td class="stl1">1pm-2pm</td>
+                <td colspan="6">Lunch </td>
+               
+            </tr>
+            <tr>
+                <td class="stl1">2pm-6pm</td>
+                <td>task</td>
+                <td>task</td>
+                <td>task</td>
+                <td>task</td>
+                <td>Mock interview</td>
+                <td>PPT</td>
+                <td>holiday</td>
+            </tr>
+            <tr>
+                <td class="stl1">6pm-7:30pm</td>
+                <td colspan="6">Break</td>
+                <td rowspan="4">-</td>
+                
+            </tr>
+            <tr>
+                <td class="stl1">7:30pm-8:30pm</td>
+                <td colspan="4">present day revision and practice</td>
+                <td>Task</td>
+                <td>Aptitude pracice</td>
+                
+             <tr>
+                  <td class="stl1">8:30pm-9:30pm</td>
+                  <td colspan="6">Dinner</td>
+                    
+            </tr>
+            <tr>
+                <td class="stl1">9:30pm-10:30pm</td>
+                <td colspan="4">interview questions and previous topics revision</td>
+                <td>Present day revision</td>
+                <td>-</td>
+                
+            </tr>
+            
+        </table>
     </body>
 </html>
